@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestionDeVenta.BSS\GestionDeVenta.BSS.csproj" />
+    <ProjectReference Include="..\GestionDeVenta.MODELOS\GestionDeVenta.MODELOS.csproj" />
+    <ProjectReference Include="..\ReporteVentas.VISTA\ReporteVentas.VISTA.csproj" />
+  </ItemGroup>
+
+</Project>
